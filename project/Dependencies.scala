@@ -464,6 +464,7 @@ trait Dependencies {
   val kafkaConnectS3Deps: Seq[ModuleID] = Seq(
     s3Sdk,
     stsSdk,
+    avro
   )
 
   val compressionCodecDeps: Seq[ModuleID] = Seq(xz, lz4)
